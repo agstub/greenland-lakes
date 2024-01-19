@@ -3,9 +3,12 @@
 import sys
 sys.path.insert(0, '../source')
 
-from params import *
+from params import beta_d,eta_d,t_r,u_d,v_d,H
+from metavars import lake_name
 
 def print_params():
+    print('lake name: '+lake_name)
+    print('\n')
     print('auxiliary model parameters:')
     print('H = '+str(H/1e3)+' km')
     print('beta = '+'{:.2e}'.format(beta_d)+' Pa s m^-1')
