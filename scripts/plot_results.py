@@ -122,5 +122,5 @@ def plot(outlines,t_ref,timesteps):
         cbar.ax.tick_params(labelsize=16)
         cbar.ax.xaxis.set_ticks_position('top')
         cbar.ax.xaxis.set_label_position('top')
-        # plt.tight_layout()    
+        plt.show()  
         plt.close()
